@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="home-page">
+      <!-- navigation section -->
+      <nav id="" class="nav-normal">
+        <ul class="nav-regular-view">
+          <li><a href="">Home</a></li>
+          <li><a id="caseStudies">Project Showcase</a></li>
+          <!-- <li><a href="">Testimonials</a></li> -->
+          <!-- <li><a href="">Recent Work</a></li> -->
+          <li><a id="getInTouch" href="">Get In Touch</a></li>
+          <div class="logo-imgs">
+            <a href="https://www.linkedin.com/in/george-p-allen" target="_blank"
+              ><img src="./images/LinkedIn.svg" alt=""
+            /></a>
+            <a href="https://github.com/GeorgeAmble" target="_blank"
+              ><img src="./images/github-mark-white.svg" alt=""
+            /></a>
+            <a href="https://youtube.com/@amble_" target="_blank"
+              ><img src="./images/youtube-svgrepo-com.svg" alt=""
+            /></a>
+          </div>
+        </ul>
+      </nav>
+      <nav class="nav-mobile">
+        <ul id="" class="nav-mobile-view">
+          <li id="toggleDiv" class="hamburger-icon">☰</li>
+          <div class="logo-imgs">
+            <a href="https://www.linkedin.com/in/george-p-allen" target="_blank"
+              ><img src="./images/LinkedIn.svg" alt=""
+            /></a>
+            <a href="https://github.com/GeorgeAmble" target="_blank"
+              ><img src="./images/github-mark-white.svg" alt=""
+            /></a>
+            <a href="https://youtube.com/@amble_" target="_blank"
+              ><img src="./images/youtube-svgrepo-com.svg" alt=""
+            /></a>
+          </div>
+        </ul>
+      </nav>
+      <!-- moblie section -->
+      <ul id="targetElement" class="nav-mobile-toggle">
+        <li><a href="">Home</a></li>
+        <li><a id="caseStudiesMobile">Project Showcase</a></li>
+        <!-- <li><a href="">Testimonials</a></li> -->
+        <!-- <li><a href="">Recent Work</a></li> -->
+        <li><a id="getInTouchMobile" href="">Get In Touch</a></li>
+      </ul>
+      <!-- middle of home page hero bit -->
+      <div class="hero-card">
+        <div class="hero-left">
+          <h1>George Allen</h1>
+          <p>
+            I'm a passionate web developer dedicated to creating dynamic,
+            user-centric designs. With a background in video creative direction
+            and multimedia editing, I bring a unique flair to my work, crafting
+            visually appealing content for diverse audiences.
+          </p>
+          <button id="buttonGetStarted">
+            Let's get started <img src="./images/more than arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="hero-right">
+          <img src="./images/george.png" alt="" />
+        </div>
+      </div>
+      <!-- worked with at bottom -->
+      <div class="worked-with-group">
+        <h3>Proficiency in:</h3>
+        <div class="worked-with-perent">
+          <ul>
+            <li>
+              <a href=""><img src="./images/html5white.png" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./images/css3white.png" alt="" /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  class="javaScriptQuickFix"
+                  src="./images/javascript.svg"
+                  alt=""
+              /></a>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="caseStudiesSection" class="project-section">
+      <div class="master-project">
+        <div class="title-section">
+          <h2>Project Showcase</h2>
+          <p>
+            My project showcase highlights my skills in design, responsiveness,
+            and user experience. It includes a vibrant coffee blog, a modern web
+            design with smooth animations, and a fully responsive YouTube clone.
+            Each project demonstrates my attention to detail and passion for
+            creating impactful web experiences.
+          </p>
+        </div>
+        <div class="project-area">
+          <div class="project-01">
+            <div class="project-side-text">
+              <p class="pill-yellow">Aside</p>
+              <h3>Blog</h3>
+              <p class="gray">
+                The Coffee Blog is a vibrant online space sharing insights,
+                reviews, and stories about coffee. It engages both casual
+                enthusiasts and connoisseurs, celebrating the art and culture of
+                coffee with a rich blend of content.
+              </p>
+              <button class="orange-button">
+                <a
+                  class="project-link"
+                  href="https://george-coffee-sidebar.netlify.app/"
+                  target="_blank"
+                  >View project</a
+                >
+                <img src="./images/more than arrow.svg" alt="" />
+              </button>
+            </div>
+            <div class="project-side-img">
+              <img src="./images/ProjectCoffeBlog.png" alt="" />
+            </div>
+          </div>
+          <div class="project-02">
+            <div class="project-side-img">
+              <img src="./images/projectArise.png" alt="" />
+            </div>
+            <div class="project-side-text">
+              <p class="pill-blue">Home</p>
+              <h3>Modern Landing Page</h3>
+              <p class="gray">
+                This project features a modern web design focused on aesthetics
+                and user experience. It includes smooth navigation animations
+                and a captivating hero section, built with attention to detail
+                and high-quality assets.
+              </p>
+              <button class="blue-button">
+                <a
+                  class="project-link"
+                  href="https://figma-landing-george.netlify.app/"
+                  target="_blank"
+                  >View project</a
+                >
+                <img src="./images/more than arrow.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="project-03">
+            <div class="project-side-text">
+              <p class="pill-green">Video</p>
+              <h3>YouTube Clone</h3>
+              <p class="gray">
+                This YouTube clone project showcases my ability to recreate a
+                complex, feature-rich platform with precision. The design is
+                fully responsive, ensuring a seamless experience across all
+                devices and screen sizes.
+              </p>
+              <button class="green-button">
+                <a
+                  class="project-link"
+                  href="https://youtube-george-allen.netlify.app/"
+                  target="_blank"
+                  >View project</a
+                >
+                <img src="./images/more than arrow.svg" alt="" />
+              </button>
+            </div>
+            <div class="project-side-img">
+              <img src="./images/ProjectYouTube.png" alt="" />
+            </div>
+          </div>
+          <!-- section 4 profile, dont change the class just below here-->
+          <div class="project-04">
+            <div class="project-side-img">
+              <img src="./images/projectFlagGame.png" alt="" />
+            </div>
+            <div class="project-side-text">
+              <p class="pill-yellow">Game</p>
+              <h3>Flag Quiz</h3>
+              <p class="gray">
+                This flag game uses JavaScript to fetch random flags from an
+                open-source API, generating unique questions and answers each
+                play. It showcases modern JavaScript techniques with smooth
+                animations and an engaging interface, highlighting advanced
+                functionalities for interactive web applications.
+              </p>
+              <button class="orange-button">
+                <a
+                  class="project-link"
+                  href="https://guess-the-flag-by-george.netlify.app/"
+                  target="_blank"
+                  >View project</a
+                >
+                <img src="./images/more than arrow.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="project-03">
+            <div class="project-side-text">
+              <p class="pill-green">API</p>
+              <h3>API Showcase</h3>
+              <p class="gray">
+                Discover my API showcase, featuring eight dynamic
+                mini-applications that leverage nine distinct APIs. Each app
+                demonstrates my ability to seamlessly integrate external data
+                sources, providing interactive and engaging user experiences.
+                Explore how I harness the power of JavaScript to create
+                versatile and efficient web solutions.
+              </p>
+              <button class="green-button">
+                <a
+                  class="project-link"
+                  href="https://api-dashboard-george.netlify.app/"
+                  target="_blank"
+                  >View project</a
+                >
+                <img src="./images/more than arrow.svg" alt="" />
+              </button>
+            </div>
+            <div class="project-side-img">
+              <img src="./images/case5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="getinTouchSection" class="get-in-touch-section">
+      <div class="get-in-touch-main">
+        <div class="get-in-touch-child">
+          <h1>Get In Touch</h1>
+          <p>
+            Hey there! I'm here to help bring your vision to life. Whether
+            you're a small business owner, startup founder, or have a personal
+            project in mind, I'm your dedicated partner. Let's create something
+            amazing together. Feel free to reach out anytime, I'm just a message
+            away!
+          </p>
+          <div class="list-of-contacts">
+            <p>georgeallen0309@gmail.com</p>
+            <div class="contact-img-link">
+              <img src="" alt="" />
+            </div>
+            <div class="contact-img-link"></div>
+            <div class="contact-img-link"></div>
+          </div>
+        </div>
+        <footer>
+          <p>Made with love</p>
+        </footer>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
